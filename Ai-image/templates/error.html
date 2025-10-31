@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error - Image Generation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class="area">
+  <center>
+  <div class="img">
+    <h1>Error occurred</h1>
+    
+    <div class="alert alert-danger" role="alert">
+      <h4 class="alert-heading">Generation failed!</h4>
+      <p>{{ error_message }}</p>
+      <hr>
+      <p class="mb-0">Please try again with different parameters.</p>
+    </div>
+
+    <div class="guidelines mt-4">
+      <h3>Image Generation Guidelines:</h3>
+      <div class="card">
+        <div class="card-body text-start">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">• Use clear and descriptive prompts in Russian or English</li>
+            <li class="list-group-item">• Avoid offensive or inappropriate content</li>
+            <li class="list-group-item">• Specify details like colors, style, and composition</li>
+            <li class="list-group-item">• Keep prompts under 200 characters for best results</li>
+            <li class="list-group-item">• Try different art styles if results are not satisfactory</li>
+            <li class="list-group-item">• The system automatically translates Russian prompts to English</li>
+            <li class="list-group-item">• Maximum 5 requests per minute allowed</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <a href="{{ url_for('index') }}" class="btn btn-primary">Back to Main Page</a>
+    </div>
+  </div>
+  </center>
+</body>
+</html>
