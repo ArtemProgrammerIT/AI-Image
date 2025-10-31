@@ -187,9 +187,11 @@ def generate():
         ))
         image_url = images[0] if images else None
     except SDXLException as e:
-        return f"Error generating image: {str(e)}", 400
+        error_message = str(e)
+        return render_template("error.html", error_message=error_message)
     except Exception as e:
-        return f"Unexpected error: {str(e)}", 500
+        error_message = f"Unexpected error: {str(e)}"
+        return render_template("error.html", error_message=error_message)
 
     return render_template('index.html', image_url=image_url)
 
