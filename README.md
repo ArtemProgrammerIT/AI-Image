@@ -15,7 +15,7 @@
 
 ```bash
 git clone https://github.com/ArtemProgrammerIT/AI-Image.git
-cd sdxl-generator
+cd AI-Image
 ```
 ### 2.Создание виртуального окружения (рекомендуется)
 
