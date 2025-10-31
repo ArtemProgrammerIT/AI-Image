@@ -18,7 +18,7 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone <[HTTPS url](https://github.com/ArtemProgrammerIT/AI-Image.git)>
+git clone https://github.com/ArtemProgrammerIT/AI-Image.git
 cd sdxl-generator
 ```
 ### 2.Создание виртуального окружения (рекомендуется)
