@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Создайте ваше творение!</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="area">
+
+  <center>
+  <div class="img">
+    <h1>ВАШЕ ИЗОБРАЖЕНИЕ:</h1>
+    {% if image_url %}
+      <img src="{{ image_url }}" alt="Generated image" style="max-width: 512px; max-height: 512px;">
+    {% else %}
+      <p>Изображение будет отображено здесь после генерации</p>
+    {% endif %}
+    
+    <form method="POST" action="/generate">
+      <input type="text" name="prompt" placeholder="Введите описание изображения..." required style="padding: 10px; width: 300px;">
+      <select name="style_index" style="padding: 10px;">
+        <option value="0">(No style)</option>
+        <option value="1">Cinematic</option>
+        <option value="2">Photographic</option>
+        <option value="3">Anime</option>
+        <option value="4">Manga</option>
+        <option value="5">Digital Art</option>
+        <option value="6">Pixel art</option>
+        <option value="7">Fantasy art</option>
+        <option value="8">Neonpunk</option>
+        <option value="9">3D Model</option>
+      </select>
+      <button type="submit" style="padding: 10px 20px;">Сгенерировать</button>
+    </form>
+  </div>
+  </center>
+
+</body>
+</html>
