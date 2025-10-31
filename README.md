@@ -43,7 +43,7 @@ The application will be available at: http://127.0.0.1:5000 ___(Or at your perso
 ### Usage
 1. Open a web browser and go to [this address](http://127.0.0.1:5000)
 
-2. Enter the image description in Russian in the text field
+2. Enter the image description in the text field
 
 3. Select the desired style from the dropdown menu
 
@@ -119,7 +119,7 @@ python app.py
 ### Использование
 1. Откройте веб-браузер и перейдите по [адресу](http://127.0.0.1:5000)
 
-2. Введите описание изображения на русском языке в текстовое поле
+2. Введите описание изображения в текстовое поле
 
 3. Выберите желаемый стиль из выпадающего списка
 
