@@ -87,7 +87,7 @@ The application will be available at: http://127.0.0.1:5000 ___(Or at your perso
 7. **Format and Size**:
    - Define the desired format (portrait, landscape) and size of the image.
 
-####Example: The image depicts Central Park in the heart of New York City, where green pathways and well-kept lawns contrast with the surrounding skyscrapers. People are enjoying nature, walking or riding bicycles, creating an atmosphere of tranquility amidst the bustling urban environment.
+Example: The image depicts Central Park in the heart of New York City, where green pathways and well-kept lawns contrast with the surrounding skyscrapers. People are enjoying nature, walking or riding bicycles, creating an atmosphere of tranquility amidst the bustling urban environment.
 
 
 ### Requirements
