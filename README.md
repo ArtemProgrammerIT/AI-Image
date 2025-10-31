@@ -52,16 +52,16 @@ The application will be available at: http://127.0.0.1:5000 ___(Or at your perso
 5. Wait for the image generation to complete (may take a few seconds)
 
 ### Available Styles
-- (No style) - No style
-- Cinematic - Cinematic
-- Photographic - Photographic
-- Anime - Anime
-- Manga - Manga
-- Digital Art - Digital Art
-- Pixel art - Pixel art
-- Fantasy art - Fantasy art
-- Neonpunk - Neonpunk
-- 3D Model - 3D Model
+- (No style)
+- Cinematic
+- Photographic
+- Anime
+- Manga
+- Digital Art
+- Pixel art
+- Fantasy art
+- Neonpunk
+- 3D Model
 
 ## Requirements
 - Python 3.7+
